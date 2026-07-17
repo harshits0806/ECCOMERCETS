@@ -8,7 +8,7 @@ import { NotFoundPage } from "./pages/PageNotFound";
 
 import "./App.css";
 import { useEffect, useState } from "react";
-window.axios = axios;
+//window.axios = axios;
 function App() {
   const [cart, setCart] = useState([]);
 
