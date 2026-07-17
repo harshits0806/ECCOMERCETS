@@ -2,7 +2,7 @@ import { Header } from "../../Components/Header";
 import { useSearchParams } from "react-router";
 import axios from "axios";
 
-import { ProductGrid } from "./productgrid";
+import { ProductGrid } from "./ProductGrid";
 import "./HomePage.css";
 
 import { useEffect, useState } from "react";
