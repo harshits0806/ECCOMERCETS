@@ -7,7 +7,7 @@ import { NavLink } from "react-router";
 import { useNavigate } from "react-router";
 import { useState } from "react";
 import { useSearchParams } from "react-router";
-
+//adsasasd
 type HeaderProps = {
   cart: {
     productId: string;
