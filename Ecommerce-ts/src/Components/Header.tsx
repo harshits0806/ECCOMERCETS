@@ -1,9 +1,9 @@
 import "./Header.css";
 import CartIcon from "../assets/images/icons/cart-icon.png";
 import SearchIcon from "../assets/images/icons/search-icon.png";
-// import LogoWhite from "../assets/images/logo-white.png";
-// import MobileLogoWhite from "../assets/images/mobile-logo-white.png";
-import PrimeCartLogo from "../assets/images/primeCart.png";
+import LogoWhite from "../assets/images/logo-white.png";
+import MobileLogoWhite from "../assets/images/mobile-logo-white.png";
+//import PrimeCartLogo from "../assets/images/primeCart.png";
 import { NavLink } from "react-router";
 import { useNavigate } from "react-router";
 import { useState } from "react";
@@ -47,8 +47,8 @@ export function Header({ cart }:HeaderProps) {
     <div className="header">
       <div className="left-section">
         <NavLink to="/checkout" className="header-link">
-          <img className="logo" src={PrimeCartLogo} />
-          <img className="mobile-logo" src={PrimeCartLogo} />
+          <img className="logo" src={LogoWhite} />
+          <img className="mobile-logo" src={MobileLogoWhite} />
         </NavLink>
       </div>
 
