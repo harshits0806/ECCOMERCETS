@@ -27,7 +27,7 @@
 }
 
 .checkout-header .logo {
-  height: 26px;
+  height: 120px;
   margin-top: 0px;
 }
 
@@ -45,12 +45,14 @@
   }
 
   .checkout-header .logo {
+    margin-top: 15px;
     display: none;
   }
 
   .checkout-header .mobile-logo {
+    margin-top: 6px;
     display: inline-block;
-    height: 26px;
+    height: 40px;
   }
 }
 
