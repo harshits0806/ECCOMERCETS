@@ -97,33 +97,38 @@
 
 .home-page .product-name {
   height: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 .home-page .product-rating-container {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  
 }
 
 .home-page .product-rating-stars {
-  width: 100px;
-  margin-right: 6px;
+  width: 110px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 .home-page .product-rating-count {
-  color: rgb(25, 135, 84);
+  color: #023215;
   cursor: auto;
-  margin-top: 3px;
+  margin-top: -13px;
+  margin-bottom: 4px;
+  
 }
 
 .home-page .product-price {
   font-weight: 700;
+  color: #FF5A00;
   margin-bottom: 10px;
 }
 
 .home-page .product-quantity-container {
-  margin-bottom: 17px;
+  margin-bottom: 0px;
 }
 
 .home-page .product-spacer {
@@ -131,7 +136,7 @@
 }
 
 .home-page .added-to-cart {
-  color: rgb(25, 135, 84);
+  color: #011C43;
   font-size: 16px;
 
   display: flex;
